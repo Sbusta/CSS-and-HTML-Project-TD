@@ -6,7 +6,9 @@ A project on CSS and Html for Talos
 ### Folder Tree structure
 
 ├── CSS
+
 │   └── main.css
+
 ├── Font
 │   ├── et-line-font
 │   │   ├── Read\ Me.txt
