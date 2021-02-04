@@ -1,4 +1,4 @@
-# CSS-and-HTML-Proyect-TD
+# CSS-and-HTML-Project-TD
 ////////////////////////////////////
 
 A project on CSS and Html
