@@ -1,13 +1,15 @@
 var toggleButton = document.querySelector('.toggle-button');
 var mobileNav = document.querySelector('.mobile-nav');
 
+// activate the backdrop menu 
 toggleButton.addEventListener('click',function(){
     if(mobileNav.style.display == 'flex'){
         mobileNav.style.display = 'none';
     }else{mobileNav.style.display = 'flex';}
 })
 
-  $(".nav__button").on("click", function (e) {
+// scroll and link the buttons
+$(".nav__button").on("click", function (e) {
     e.preventDefault();
     const href = $(this).attr("href");
     $("html, body").animate({ scrollTop: $(href).offset().top }, 600);
@@ -31,7 +33,7 @@ $(".button__item_contact-us").on("click", function (e) {
     $("html, body").animate({ scrollTop: $(href).offset().top }, 600);
 });
 
-
+//highlight the buttons
 $(window).scroll(function() {
     var position = $(this).scrollTop();
     $('section').each(function() {
@@ -46,4 +48,4 @@ $(window).scroll(function() {
           $('#' + id+'m').addClass('highlight');
         }
     });
-  });
+});
