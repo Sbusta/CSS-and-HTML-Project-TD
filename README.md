@@ -47,4 +47,9 @@ by Sebastián Bustamante Cardona
 
 ### Start
 
-- Open index.html in your favorite Web browser.
+- Open index.html in your favorite Web Browser.
+
+or use the deployed webpage
+
+click on the [webpage](https://sbusta-css-project-td.web.app)
+or type `https://sbusta-css-project-td.web.app` on your Web Browser
