@@ -17,7 +17,7 @@ by Sebastián Bustamante Cardona
 ├── css
 │   ├── main.css
 │   └── style.css
-├── font
+├── fonts
 │   ├── et-line-font
 │   │   ├── et-line.eot
 │   │   ├── et-line.svg
